@@ -1,0 +1,17 @@
+{
+  "name"        : "DB::Xoos::SQLite",
+  "version"     : "0.1.1",
+  "perl"        : "6",
+  "description" : "An ORM, with support.",
+  "auth"        : "github:tony-o",
+  "authors"     : [ "Tony O'Dell" ],
+  "depends"     : [],
+  "test-depends": ["DB::SQLite", "DB::Xoos"],
+  "license"     : "Artistic-2.0",
+  "provides"    : {
+    "DB::Xoos::Sqlite": "lib/DB/Xoos/Sqlite.pm6",
+    "DB::Xoos::Sqlite::Result": "lib/DB/Xoos/Sqlite/Result.pm6" 
+  },
+  "tags": [ "ORM", "DB", "database", "model", "relational", "object", "relationship", "mapping", "sqlite"],
+  "source-url"  : "git://github.com/tony-o/p6-db-xoos-sqlite.git"
+} 
