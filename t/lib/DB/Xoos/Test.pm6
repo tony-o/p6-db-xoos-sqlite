@@ -10,7 +10,7 @@ state $DB;
 sub get-sqlite is export {
   state $db = DB::Xoos.new(
     db      => $DB,
-    options => { prefix => 'X', db-params => { driver => 'D' } },
+    options => { prefix => 'X', db-params => { driver => 'Sqlite' } },
   );
   $db;
 }
